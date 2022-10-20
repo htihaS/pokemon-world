@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ListGroup } from 'reactstrap';
 import axios from "axios";
-import PokemonDetails from './PokemonDetails';
-import { Link } from 'react-router-dom';
+import PokemonDetails from './ShowPokemon';
 
 const Sidebar =()=>{
 
@@ -32,10 +31,8 @@ const Sidebar =()=>{
 
     return(
         <div>
-            {
-                pokemon.length > 0? pokemon.map((item=> (<ListGroup><Link tag ='a' to='/pokemondetails' onClick={()=>{showPokemon(item)}}>{item.name}</Link></ListGroup> ) )): "No pokemon"
-            }
-            <PokemonDetails url={selectedPokemonUrl}></PokemonDetails>
+            <Link tag="a" to="/">Home</Link>
+            <Link tag="a" to="/pokemondetails">PokemonDetails</Link>
         </div>
         )
 }

@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Router>
 
-      <Sidebar></Sidebar>
+      <Sidebar
       <Routes>
         <Route path='/' element = {<Home/>} />
         <Route path='/pokemondetails' element = {<PokemonDetails/>} />

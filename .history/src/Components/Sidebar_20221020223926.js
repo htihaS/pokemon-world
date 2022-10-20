@@ -33,9 +33,8 @@ const Sidebar =()=>{
     return(
         <div>
             {
-                pokemon.length > 0? pokemon.map((item=> (<ListGroup><Link tag ='a' to='/pokemondetails' onClick={()=>{showPokemon(item)}}>{item.name}</Link></ListGroup> ) )): "No pokemon"
+                pokemon.length > 0? pokemon.map((item=> (<ListGroup><Link tag onClick={()=>{showPokemon(item)}}>{item.name}</Link></ListGroup> ) )): "No pokemon"
             }
-            <PokemonDetails url={selectedPokemonUrl}></PokemonDetails>
         </div>
         )
 }
