@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.logo{
+  
+}
+
+ul {
+  list-style-type: none;
+}
+.home{
+  display: flex;
+  flex-direction: row;
+}
+.sidebar{
+  width: 20%;
+  margin-left: 0.5rem;
+  border-right: 20rem;           
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align:justify;
+  color:blue;
+}
+.active{
+  background-color:yellow;
+}
+
+.details{
+width: 80%;
+margin: 2rem;
+}
+ul{
+  border:2px solid black;
+  padding-left: 0rem;
+}
+li{
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+
