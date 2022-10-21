@@ -4,7 +4,14 @@
         "abilitiesarr",
         "activelistitem",
         "getdata",
+        "getstats",
         "movesarr",
-        "pokemondetails"
+        "pokemondetails",
+        "statname",
+        "statsarr",
+        "statsarray",
+        "statvalue",
+        "tempkey",
+        "tempvalue"
     ]
 }

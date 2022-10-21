@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Teko:wght@400;700&display=swap');
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.logo{
+  padding-top: 0.2rem;
+  height: 500px;
+  width: 700px;
+}
+.header-logo{
+  
+}
+
+.home{
+  display: flex;
+  flex-direction: row;
+}
+.sidebar{
+  width: 30%;          
+  text-align:center;
+  color:blue;
+}
+.active{
+  background-color:yellow;
+}
+
+.details{
+width: 70%;
+margin: 2rem;
+}
+ul{
+  padding-left: 0rem;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  text-align: center;
+}
+.ul-border{
+  margin: 0rem;
+  padding: 0rem;
+}
+li{
+  padding-left: 1rem;
+  margin-left: 0rem;
+}
+
+.pokemon-image{
+  margin: 2rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  border:0.1rem outset lightblue;
+  background-color:aliceblue
+}
+

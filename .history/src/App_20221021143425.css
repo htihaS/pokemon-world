@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.logo{
+  padding-top: 0.2rem;
+  height: 500px;
+  width: 700px;
+}
+
+ul {
+  list-style-type: none;
+}
+.home{
+  display: flex;
+  flex-direction: row;
+}
+.sidebar{
+  width: 20%;          
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align:center;
+  color:blue;
+}
+.active{
+  background-color:yellow;
+}
+
+.details{
+width: 80%;
+margin: 2rem;
+}
+ul{
+  padding-left: 0rem;
+}
+li{
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+.pokemon-image{
+  border-radius: 1rem;
+  
+}
+
